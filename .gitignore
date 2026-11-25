@@ -25,3 +25,6 @@ ENV/
 # Runtime storage files
 library.json
 test_library.json
+
+# Local audit & private backlog
+audit.md
