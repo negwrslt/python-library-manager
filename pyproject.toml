@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mylibrary"
+version = "0.2.0"
+description = "A modular Python package and CLI for cataloging and managing books"
+authors = [
+    { name = "Negar Soltaniani" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["library", "books", "cli", "management", "catalog"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+library-manager = "main:menu"
